@@ -67,6 +67,8 @@ class MainActivity : AppCompatActivity() {
         } catch (e: ApiException) {
             Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show()
         }
+
+
     }
 
     private fun UpdateUI(account: GoogleSignInAccount) {
